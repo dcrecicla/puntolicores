@@ -1,0 +1,7 @@
+{
+  "name": "PUNTO LICORES",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
