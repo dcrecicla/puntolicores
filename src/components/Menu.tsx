@@ -29,8 +29,8 @@ const appPages: AppPage[] = [
     mdIcon: mailSharp
   },
   {
-    title: 'Outbox',
-    url: '/page/Outbox',
+    title: 'productos',
+    url: '/productos',
     iosIcon: paperPlaneOutline,
     mdIcon: paperPlaneSharp
   },
@@ -61,6 +61,8 @@ const appPages: AppPage[] = [
 ];
 
 const labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+
+
 
 const Menu: React.FC = () => {
   const location = useLocation();
