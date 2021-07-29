@@ -1,0 +1,15 @@
+.lista_cat { 
+
+width: 90%;
+ 
+}
+
+.nombre_c {
+    padding-top: 50px;
+    background: cornflowerblue;
+    height: 110px;
+    border: 1px darkslategrey;
+    border-radius: 10px;
+    text-align: center;
+    
+}

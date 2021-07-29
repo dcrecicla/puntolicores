@@ -12,7 +12,7 @@ return (
         <IonMenuButton>
             
         </IonMenuButton>
-        <IonLabel>HOLA MAYA MK</IonLabel>
+        <IonLabel>PRODUCTOS</IonLabel>
 
     </IonHeader>
 <IonList>

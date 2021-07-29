@@ -23,6 +23,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import Categorias from './components/Categorias';
 
 const App: React.FC = () => {
   return (
@@ -39,6 +40,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/productos" exact={true}>
               <Productos_lista />
+            </Route>
+            <Route path="/categorias" exact={true}>
+              <Categorias />
             </Route>
           </IonRouterOutlet>
         </IonSplitPane>

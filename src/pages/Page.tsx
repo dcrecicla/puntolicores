@@ -2,7 +2,7 @@ import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, Io
 import { useParams } from 'react-router';
 import ExploreContainer from '../components/ExploreContainer';
 import './Page.css';
-
+import Categorias from '../components/Categorias'
 const Page: React.FC = () => {
 
   const { name } = useParams<{ name: string; }>();
@@ -19,6 +19,7 @@ const Page: React.FC = () => {
       </IonHeader>
 
       <IonContent fullscreen>
+        <Categorias />
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">{name}</IonTitle>
