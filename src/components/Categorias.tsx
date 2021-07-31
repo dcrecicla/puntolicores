@@ -67,44 +67,17 @@ import {
 
     return(
         <IonPage>
-            <IonContent>
-            <IonHeader>
-                        <IonMenuButton>
-                            
-                        </IonMenuButton>
-                        <IonLabel>CATEGORIAS TIENDA</IonLabel>
-                        
-
-            </IonHeader>
-
+          <IonContent>
             <IonList>
-            {Categorias_list.map((Cat_lista, index) => {
-
-                return(<IonItem className="lista_cat">
-
-                    <IonLabel className="nombre_c">{Cat_lista.title}</IonLabel>
-            </IonItem>);
-
-                
-            })       
-        
-            }
-                    
-                
+                  { Categorias_list.map((Cat_lista, index) => {
+                      return(
+                        <IonItem className="lista_cat">
+                        <IonLabel className="nombre_c">{Cat_lista.title}</IonLabel>
+                        </IonItem>);               
+                    })      
+                  }            
             </IonList>
-
-            </IonContent>
-
-
-
-
-
-
-
+          </IonContent>
         </IonPage>
-
-
-
     );
-
   };export default Categorias;
